@@ -89,6 +89,6 @@ Códigos de erro: `400` dados inválidos, `401` token inválido ou login incorre
 
 ## Links
 
-- Aplicativo (front-end): _https://SEU-DOMINIO_
-- API (back-end): _https://api.SEU-DOMINIO_
+- Aplicativo (front-end): https://israelaround.mooo.com
+- API (back-end): https://api.israelaround.mooo.com
 - Demonstração em vídeo: _adicione aqui o link_
