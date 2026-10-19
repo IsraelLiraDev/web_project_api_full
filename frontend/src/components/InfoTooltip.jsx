@@ -25,8 +25,8 @@ function InfoTooltip({ isOpen, isSuccess, onClose }) {
 
         <h2 className="auth-tooltip__title">
           {isSuccess
-            ? "¡Registro completado correctamente!"
-            : "¡Vaya! Algo ha salido mal. Inténtalo de nuevo."}
+            ? "Cadastro concluído com sucesso!"
+            : "Ops! Algo deu errado. Tente novamente."}
         </h2>
       </div>
     </div>

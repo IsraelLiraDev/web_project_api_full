@@ -13,7 +13,7 @@ export default function Popup(props) {
     <div className="popup">
       <div className={contentClassName}>
         <button
-          aria-label="Close modal"
+          aria-label="Fechar"
           className="popup__close"
           type="button"
           onClick={onClose}

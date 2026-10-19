@@ -21,7 +21,7 @@ export default function Main(props) {
   const { currentUser } = useContext(CurrentUserContext);
 
   const newCardPopup = {
-    title: "New card",
+    title: "Novo cartão",
     children: <NewCard onAddPlaceSubmit={onAddPlaceSubmit} />,
   };
   const editProfilePopup = {

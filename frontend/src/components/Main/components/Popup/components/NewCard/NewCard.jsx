@@ -34,7 +34,7 @@ export default function NewCard(props) {
           maxLength="30"
           minLength="1"
           name="card-name"
-          placeholder="Title"
+          placeholder="Título"
           required
           type="text"
           value={name}
@@ -47,7 +47,7 @@ export default function NewCard(props) {
           className="popup__input popup__input_type_url"
           id="card-link"
           name="link"
-          placeholder="Image link"
+          placeholder="Link da imagem"
           required
           type="url"
           value={link}

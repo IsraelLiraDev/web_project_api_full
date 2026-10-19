@@ -25,7 +25,7 @@ export default function EditAvatar() {
         id="avatar-link-input"
         className="popup__input popup__input_type_url"
         name="avatar"
-        placeholder="Link de Imagem"
+        placeholder="Link da imagem"
         required
         type="url"
         ref={avatarLinkRef}

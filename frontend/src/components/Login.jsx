@@ -12,13 +12,13 @@ function Login({ onLogin }) {
 
   return (
     <main className="auth">
-      <h1 className="auth__title">Iniciar sesión</h1>
+      <h1 className="auth__title">Entrar</h1>
 
       <form className="auth__form" onSubmit={handleSubmit}>
         <input
           className="auth__input"
           type="email"
-          placeholder="Correo electrónico"
+          placeholder="E-mail"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
           required
@@ -27,19 +27,19 @@ function Login({ onLogin }) {
         <input
           className="auth__input"
           type="password"
-          placeholder="Contraseña"
+          placeholder="Senha"
           value={password}
           onChange={(event) => setPassword(event.target.value)}
           required
         />
 
         <button className="auth__submit" type="submit">
-          Iniciar sesión
+          Entrar
         </button>
       </form>
 
       <p className="auth__caption">
-        ¿Aún no eres miembro? <Link to="/signup">Regístrate aquí</Link>
+        Ainda não é membro? <Link to="/signup">Cadastre-se aqui</Link>
       </p>
     </main>
   );

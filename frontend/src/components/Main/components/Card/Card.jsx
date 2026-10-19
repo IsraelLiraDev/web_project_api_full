@@ -36,7 +36,7 @@ export default function Card(props) {
       />
       {isOwn && (
         <button
-          aria-label="Delete card"
+          aria-label="Excluir cartão"
           className="card__delete-button"
           type="button"
           onClick={() => handleOpenPopup(deletePopup)}
@@ -45,7 +45,7 @@ export default function Card(props) {
       <div className="card__description">
         <h2 className="card__title">{name}</h2>
         <button
-          aria-label="Like card"
+          aria-label="Curtir cartão"
           type="button"
           className={cardLikeButtonClassName}
           onClick={() => handleLikeClick(_id, isLiked)}

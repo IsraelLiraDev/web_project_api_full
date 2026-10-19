@@ -8,7 +8,7 @@ function Header({ email, onSignOut }) {
       <div className="header__info">
         <p className="header__email">{email}</p>
         <button className="header__logout" type="button" onClick={onSignOut}>
-          Cerrar sesión
+          Sair
         </button>
       </div>
     </header>

@@ -12,13 +12,13 @@ function Register({ onRegister }) {
 
   return (
     <main className="auth">
-      <h1 className="auth__title">Regístrate</h1>
+      <h1 className="auth__title">Cadastre-se</h1>
 
       <form className="auth__form" onSubmit={handleSubmit}>
         <input
           className="auth__input"
           type="email"
-          placeholder="Correo electrónico"
+          placeholder="E-mail"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
           required
@@ -27,19 +27,19 @@ function Register({ onRegister }) {
         <input
           className="auth__input"
           type="password"
-          placeholder="Contraseña"
+          placeholder="Senha"
           value={password}
           onChange={(event) => setPassword(event.target.value)}
           required
         />
 
         <button className="auth__submit" type="submit">
-          Regístrate
+          Cadastre-se
         </button>
       </form>
 
       <p className="auth__caption">
-        ¿Ya eres miembro? <Link to="/signin">Inicia sesión aquí</Link>
+        Já é membro? <Link to="/signin">Faça login aqui</Link>
       </p>
     </main>
   );
