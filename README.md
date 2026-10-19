@@ -58,18 +58,18 @@ Em desenvolvimento a API roda sem arquivo `.env` (usa um segredo de desenvolvime
 
 ## Rotas da API
 
-| Método | Rota | Descrição | Autenticação |
-| --- | --- | --- | --- |
-| POST | `/signup` | Cria um usuário | não |
-| POST | `/signin` | Devolve o token JWT | não |
-| GET | `/users/me` | Usuário atual | sim |
-| PATCH | `/users/me` | Atualiza nome e sobre | sim |
-| PATCH | `/users/me/avatar` | Atualiza o avatar | sim |
-| GET | `/users`, `/users/:userId` | Lista ou busca usuários | sim |
-| GET | `/cards` | Lista os cartões | sim |
-| POST | `/cards` | Cria um cartão | sim |
-| DELETE | `/cards/:cardId` | Remove o próprio cartão | sim |
-| PUT / DELETE | `/cards/:cardId/likes` | Curte / descurte | sim |
+| Método       | Rota                       | Descrição               | Autenticação |
+| ------------ | -------------------------- | ----------------------- | ------------ |
+| POST         | `/signup`                  | Cria um usuário         | não          |
+| POST         | `/signin`                  | Devolve o token JWT     | não          |
+| GET          | `/users/me`                | Usuário atual           | sim          |
+| PATCH        | `/users/me`                | Atualiza nome e sobre   | sim          |
+| PATCH        | `/users/me/avatar`         | Atualiza o avatar       | sim          |
+| GET          | `/users`, `/users/:userId` | Lista ou busca usuários | sim          |
+| GET          | `/cards`                   | Lista os cartões        | sim          |
+| POST         | `/cards`                   | Cria um cartão          | sim          |
+| DELETE       | `/cards/:cardId`           | Remove o próprio cartão | sim          |
+| PUT / DELETE | `/cards/:cardId/likes`     | Curte / descurte        | sim          |
 
 Códigos de erro: `400` dados inválidos, `401` token inválido ou login incorreto, `403` sem autorização ou cartão de outra pessoa, `404` não encontrado, `409` e-mail já cadastrado, `500` erro no servidor. A resposta de erro tem apenas o campo `message`.
 
@@ -91,4 +91,4 @@ Códigos de erro: `400` dados inválidos, `401` token inválido ou login incorre
 
 - Aplicativo (front-end): https://israelaround.mooo.com
 - API (back-end): https://api.israelaround.mooo.com
-- Demonstração em vídeo: _adicione aqui o link_
+- Demonstração em vídeo: https://youtu.be/XRBxfujXraI
